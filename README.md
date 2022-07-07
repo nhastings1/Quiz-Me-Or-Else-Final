@@ -10,8 +10,8 @@ Build a fully functional timed coding quiz with multiple-choice questions. The q
 * JavaScript
 
 ## Deployment
-* [See Live Site]
-* [GitHub repo Link]
+* [See Live Site](https://nhastings1.github.io/Quiz-Me-Or-Else-Final/)
+* [GitHub repo Link](https://github.com/nhastings1/Quiz-Me-Or-Else-Final.git)
 
 ## Preview
 ![Screen Shot 2022-07-05 at 11 54 34 PM](https://user-images.githubusercontent.com/102787162/177472115-ab5c2e94-d2a3-44bf-be87-9a968e3b0c18.png)
