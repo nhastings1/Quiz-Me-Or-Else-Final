@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz Challenge</title>
+    <link rel="stylesheet" href="/Users/client/Desktop/Bootcamp/Quiz-Me-Or-Else/Assets/style-1.css" />
+</head>
+
+<body>
+    <header>
+        <h3 id="highscorelist"> 🏆 View Top Scores 🏆</h3>
+        <h3 id="timer">⏱ Time Left: 90 seconds</h3>
+    </header>
+    <div id="introbox">
+        <h2>Welcome to the Javascript Quiz. Play if you dare!!</h2>
+        <h3>You will have 90 seconds to answer as many questions correctly as possible.</h3>
+        <h3> The timer will begin and the game will start; as soon as, you click the START button!</h3>
+        <button id="introbuttonyes" button class="quizbuttons">START!</button>
+        <button id="introbuttonno" button class="quizbuttons">Turn Around and Run!</button>
+        <h3>Click the "Turn Around and Run" button if your not ready to play!</h3>
+    </div>
+    <div id="questionbox" style="display:none">
+        <h2 id="quizquestion"></h2>
+        <button class="quizbuttons" id="btn0"><span id="choice0"></span></button>
+        <button class="quizbuttons" id="btn1"><span id="choice1"></span></button>
+        <button class="quizbuttons" id="btn2"><span id="choice2"></span></button>
+        <button class="quizbuttons" id="btn3"><span id="choice3"></span></button>
+    </div>
+    <div id="endquizbox" style="display:none">
+        <h2 id=endquiztext></h2>
+        <button id="endquizyes" button class="quizbuttons">Yes</button>
+        <button id="endquizno" button class="quizbuttons">No</button>
+    </div>
+    <div id="submitscorebox" style="display:none">
+        <form id="form" method="POST">
+            <label for="name ">Name:</label>
+            <input type="text " id="name" placeholder="name "> </input>
+            <button id="submit" button class="quizbuttons"> Submit Score</button>
+        </form>
+    </div>
+    <div id="resultscontainer">
+        <p id="resultdisplay"></p>
+        <hr id="divider"></hr>
+    </div>
+    <div id="highscorebox" style="display:none">
+        <h2 style="color:red">🏆 Top Scores List 🏆</h2>
+        <h3 id="highscorename">
+        </h3>
+        <h3 id="highscorescore">
+        </h3>
+        <button id="clear" class="quizbuttons">Clear Highscores</button>
+    </div>
+    <footer style="display:none">
+        <button id="reset">Reset Game</button>
+    </footer>
+    <script src="/Users/client/Desktop/Bootcamp/Quiz-Me-Or-Else/Assets/script-1.js"></script>
+</body>
+
+</html>
